@@ -1,0 +1,160 @@
+* {
+  border-radius: 3px;
+}
+body {
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #753232;
+  color: #753232;
+}
+
+.yatzy-app {
+  border: 3px solid rgba(11, 51, 3, 0.3);
+  box-shadow: 10px 10px 10px rgba(11, 51, 3, 0.3);
+  padding: 40px;
+  background: #fa966e;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  border: 1px solid #753232; 
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.pane.left {
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+}
+.dice {
+  width: 100%;
+}
+
+.locked {
+  border: red 6px solid;
+}
+.unlocked {
+  border: green 6px solid;
+}
+
+.unstarted-dice {
+  border: 3px solid #753232;
+}
+.locked-dice {
+  border: 3px solid #753232;
+}
+.live-dice {
+  border: 3px solid #753232;
+}
+.dice-box {
+  padding: 10px;
+  border-radius: 3px;
+  margin: 15px;
+}
+.unstarted-dice .die {
+  cursor: default;
+}
+
+.die {
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 3px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.rerolls-remaining {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.scoreboard {
+  border: 10px solid #753232;
+  margin: 10px;
+  background: white;
+  padding: 20px;
+}
+
+.score-line {
+  display: flex;
+  min-width: 30%;
+}
+
+.score-line * {
+  border-radius: 0;
+}
+.total-line {
+  background: #dddddd;
+}
+
+.score-line .label {
+  min-width: 150px;
+  text-align: left;
+  border: 1px solid #594f4f;
+  padding: 3px;
+}
+.score-line .value {
+  min-width: 50px;
+  text-align: left;
+  border: 1px solid #753232;
+  padding: 3px;
+  font-weight: bolder;
+}
+.score-line .suggested-value {
+  min-width: 50px;
+  text-align: left;
+  color: red;
+  border: 1px solid #753232;
+  padding: 3px;
+}
+
+.score-line.underline {
+  border-bottom-style: double;
+  border-bottom: 2px solid #753232;
+}
+.score-line.overline {
+  border-top-style: double;
+  border-top: 2px solid #753232;
+}
+
+.start-game-panel button {
+  background: #071ca7;
+  font-size: 24pt;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+.roll-button {
+  background-color: #071ca7;
+  color: white;
+  width: 99px;
+  margin: 15px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.high-scores-table {
+  min-width: 250px;
+  background: white;
+  color: #753232;
+}
+
+.high-score-row {
+  display: flex;
+  border-bottom: 1px solid #753232;
+  border-radius: 0;
+  margin: 0 10px;
+}
+.high-score-row span {
+  padding: 3px;
+}
+.high-score-value {
+  min-width: 100px;
+}
+.high-score-value {
+  min-width: 100px;
+}
